@@ -171,10 +171,10 @@ const Contact = () => {
                 <div className="flex items-start space-x-3">
                   <MapPin className="w-5 h-5 text-[#ff4822] mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-gray-900">Second Brains Technology</p>
+                    <p className="font-semibold text-gray-900">SECOND BRAINS CO., LTD</p>
                     <p className="text-gray-600">
                       Ho Chi Minh City, Vietnam<br />
-                      District 1, HCMC 70000
+                      Business Registration ID: 0318722409<br />
                     </p>
                   </div>
                 </div>
@@ -191,7 +191,7 @@ const Contact = () => {
                   <Phone className="w-5 h-5 text-[#ff4822] flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-gray-900">Phone</p>
-                    <p className="text-gray-600">+84 (0) 123 456 789</p>
+                    <p className="text-gray-600">+84 868 000 317</p>
                   </div>
                 </div>
 
@@ -201,8 +201,7 @@ const Contact = () => {
                     <p className="font-semibold text-gray-900">Business Hours</p>
                     <p className="text-gray-600">
                       Monday - Friday: 9:00 AM - 6:00 PM (ICT)<br />
-                      Saturday: 9:00 AM - 1:00 PM (ICT)<br />
-                      Sunday: Closed
+                      Saturday & Sunday: Closed
                     </p>
                   </div>
                 </div>

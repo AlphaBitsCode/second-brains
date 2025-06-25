@@ -25,7 +25,7 @@ const Navigation = () => {
             <Link to="/" className="flex-shrink-0 flex items-center">
               <img
                 className="h-10 w-auto"
-                src="/lovable-uploads/8164f5a5-9958-49cc-9ef4-eb6e0f663110.png"
+                src="/images/sb_logo.png"
                 alt="Second Brains"
               />
             </Link>

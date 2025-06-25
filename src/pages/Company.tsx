@@ -96,8 +96,10 @@ const Company = () => {
                 educators and technologists to a leading provider of educational development kits.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Our journey began with a simple question: "How can we make learning more engaging and effective?" 
-                This led us to develop our flagship products - the Alpha Block series and RDX Pro Kit - which 
+                Established in October 2024 (Business Registration ID: 0318722409), SECOND BRAINS CO., LTD 
+                is officially registered in Vietnam. Our journey began with a simple question: "How can we make 
+                learning more engaging and effective?" This led us to develop our flagship products - the Alpha 
+                Block series and RDX Pro Kit - which 
                 have been adopted by educational institutions, hobbyists, and professionals worldwide.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
