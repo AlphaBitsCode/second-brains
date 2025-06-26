@@ -9,7 +9,7 @@ const Shop = () => {
     {
       id: 1,
       name: "Alpha Block Basic",
-      price: "$49.99",
+      price: "$199",
       description: "Perfect for beginners starting their programming journey. Includes essential building blocks and comprehensive learning materials.",
       features: ["20+ Programming Blocks", "Getting Started Guide", "Online Tutorials", "Community Access"],
       badge: "Beginner Friendly",
@@ -19,7 +19,7 @@ const Shop = () => {
     {
       id: 2,
       name: "Alpha Block Pro",
-      price: "$89.99",
+      price: "$349",
       description: "Advanced programming blocks with enhanced features for complex project development and professional use.",
       features: ["50+ Advanced Blocks", "Project Templates", "Advanced Documentation", "Priority Support"],
       badge: "Most Popular",
@@ -29,7 +29,7 @@ const Shop = () => {
     {
       id: 3,
       name: "RDX Pro Kit",
-      price: "$149.99",
+      price: "$599",
       description: "Professional development kit designed for advanced users, educators, and institutions requiring comprehensive tools.",
       features: ["Complete Development Suite", "Educator Resources", "Enterprise Support", "Custom Integrations"],
       badge: "Professional",
