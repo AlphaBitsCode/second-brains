@@ -37,7 +37,7 @@ const Navigation = () => {
               <Link
                 key={item.name}
                 to={item.path}
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 hover:text-[#ff4822] ${
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 hover:text-[#ff4822] hover:bg-orange-50 ${
                   isActive(item.path)
                     ? "text-[#ff4822] border-b-2 border-[#ff4822]"
                     : "text-gray-700"
@@ -52,7 +52,7 @@ const Navigation = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-[#ff4822] focus:outline-none focus:text-[#ff4822] transition-colors duration-200"
+              className="text-gray-700 hover:text-[#ff4822] hover:bg-orange-50 p-2 rounded-md focus:outline-none focus:text-[#ff4822] transition-colors duration-200"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -68,7 +68,7 @@ const Navigation = () => {
                   key={item.name}
                   to={item.path}
                   onClick={() => setIsOpen(false)}
-                  className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 hover:text-[#ff4822] hover:bg-gray-50 ${
+                  className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 hover:text-[#ff4822] hover:bg-orange-50 ${
                     isActive(item.path)
                       ? "text-[#ff4822] bg-gray-50"
                       : "text-gray-700"
